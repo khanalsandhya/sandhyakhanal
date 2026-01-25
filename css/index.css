@@ -236,6 +236,8 @@ padding-left: 50px;
 .immg {
     border-radius: 10px;
     display: flex;
+   position: relative;
+   
 }
 
 .choco{
@@ -246,7 +248,82 @@ padding-left: 50px;
     padding-bottom: 50px;
 }
 .btn3{
+    background-color: burlywood;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    z-index: 2; 
+}
+.btn3:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.first{
+    text-align: center;
+    justify-content: center;
+}
+.sub{
+    padding-top: 10px;
+    font-size: 20px;
+    color: gray;
     
 }
+.body3{
+    background-color: thistle;
+}
 
-  
+.firstrow{
+    display: flex;
+    padding-top: 30px;
+    gap: 50px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.first{
+    padding-top: 40px;
+}
+.p1{
+    display: flex;
+    gap: 30px;
+    border: 2px solid orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p2{
+    display: flex;
+    gap: 30px;
+    border: 2px solid orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p3{
+    display: flex;
+    gap: 30px;
+    border: 2px solid orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.secondrow{
+    display: flex;
+    padding-top: 30px;
+    gap: 50px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.p4{
+    display: flex;
+    gap: 30px;
+    border: 2px solid orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p5{
+    display: flex;
+    gap: 30px;
+    border: 2px solid orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p6{
+    display: flex;
+    gap: 30px;
+    border: 2px solid orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
